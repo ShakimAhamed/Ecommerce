@@ -54,12 +54,9 @@ if($action == "lgvalidate"){
 // }
 
 
+//if "email" variable is filled out, send email
 
  ?>
-
-
-
-
 
 
 
