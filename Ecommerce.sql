@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 21, 2018 at 02:02 PM
+-- Generation Time: Mar 03, 2019 at 09:30 AM
 -- Server version: 10.1.25-MariaDB
 -- PHP Version: 5.6.31
 
@@ -55,33 +55,6 @@ CREATE TABLE `cart_items` (
   `cart_id` int(11) NOT NULL,
   `quantity` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- Dumping data for table `cart_items`
---
-
-INSERT INTO `cart_items` (`p_id`, `cart_id`, `quantity`) VALUES
-(35, 2, 1),
-(34, 6, 1),
-(37, 6, 1),
-(40, 6, 1),
-(40, 6, 1),
-(41, 6, 1),
-(36, 6, 1),
-(36, 6, 1),
-(36, 2, 1),
-(40, 2, 1),
-(40, 2, 1),
-(37, 2, 1),
-(35, 5, 1),
-(29, 6, 1),
-(30, 6, 1),
-(1, 6, 1),
-(4, 6, 1),
-(25, 6, 1),
-(9, 2, 1),
-(30, 4, 1),
-(5, 4, 1);
 
 -- --------------------------------------------------------
 
