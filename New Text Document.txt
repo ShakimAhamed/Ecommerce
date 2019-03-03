@@ -1,0 +1,14 @@
+
+INSERT INTO `users` (`user_id`, `user_name`, `user_address`, `user_email`, `user_password`, `user_mobile_no`, `user_birth_date`) VALUES (NULL, 'sakim_ahamed', 'dhaka', 'sakimahamed7@gmail.com', '1234', '01674155541', '2018-12-05');
+
+
+
+INSERT INTO `category` (`cat_id`, `cat_name`, `cat_description`) VALUES (NULL, 'Polo_TShirt', 'S,M,L,XL');
+
+
+
+INSERT INTO `product` (`p_id`, `p_name`, `p_description`, `cat_id`, `p_price`, `img`) VALUES (NULL, 'Mobile', 'IPhone_X', '2', '80000', '');
+
+
+
+INSERT INTO `product` (`p_id`, `p_name`, `p_description`, `cat_id`, `p_price`, `img`) VALUES (NULL, 'Shari', 'Green Jamdani', '1', '6000', '');
