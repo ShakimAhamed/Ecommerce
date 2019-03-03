@@ -36,7 +36,7 @@ $name = $_SESSION['user_name'];
             <div class="nav-head2">
                 <ul>
                     <li ><a href="page1.php">HOME</a></li>
-                    <li><a href="#">CONTACT US</a></li>
+                    <li><a href="contact.php">CONTACT US</a></li>
                     <li  class="sub"><a href="#">CATEGORY</a>
                         <ul class="submanu">
                             <li><a href="women.php">Women's_Collection</a></li>
