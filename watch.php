@@ -12,7 +12,7 @@ $name = $_SESSION['user_name'];
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="qsn.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>E-Commerce</title>
@@ -30,6 +30,7 @@ $name = $_SESSION['user_name'];
             </div>
             <div class="cart">
                 <a href="cart.php"><i class="fas fa-cart-plus"></i></a>
+                <button style="border:none;outline:none;width:130px;color:white; text-transform:uppercase;background-color:#ed5057"><?php echo $name?></button>
             </div>
             <div class="nav-head2">
                 <ul>
